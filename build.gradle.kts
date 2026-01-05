@@ -26,6 +26,9 @@ dependencies {
         testImplementation("com.typesafe.akka:akka-actor-testkit-typed_2.13:2.8.8")
         testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
         testImplementation("org.mockito:mockito-core:5.21.0")
+        testImplementation("org.mockito:mockito-junit-jupiter:5.21.0")
+        testImplementation("org.awaitility:awaitility:4.2.0")
+        implementation("com.fasterxml.jackson.core:jackson-databind:2.16.1")
     }
 }
 
